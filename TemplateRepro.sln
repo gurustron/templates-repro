@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddToSlnWorks", "AddToSlnWorks\AddToSlnWorks.csproj", "{9626845B-25AA-47DD-98A1-679EC0B06F02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{AE159CFC-BBD2-4E75-BABB-6EC17A57D47A}"
+ProjectSection(SolutionItems) = preProject
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workstemplate", "workstemplate", "{0C62622D-F7AC-4C27-BD89-F19AE7189FC2}"
+ProjectSection(SolutionItems) = preProject
+	AddToSlnWorks\.template.config\template.json = AddToSlnWorks\.template.config\template.json
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9626845B-25AA-47DD-98A1-679EC0B06F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9626845B-25AA-47DD-98A1-679EC0B06F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9626845B-25AA-47DD-98A1-679EC0B06F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9626845B-25AA-47DD-98A1-679EC0B06F02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C62622D-F7AC-4C27-BD89-F19AE7189FC2} = {AE159CFC-BBD2-4E75-BABB-6EC17A57D47A}
+	EndGlobalSection
+EndGlobal
