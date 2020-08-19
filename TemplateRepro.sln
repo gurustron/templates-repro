@@ -19,6 +19,13 @@ ProjectSection(SolutionItems) = preProject
 	AddFailsOutIndex\.template.config\template.json = AddFailsOutIndex\.template.config\template.json
 EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddFailsNestedDir", "AddFailsNestedDir\AddFailsNestedDir\AddFailsNestedDir.csproj", "{A7930289-EEFA-40A8-A705-C36F1B31B732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "failsnesteddirtemplate", "failsnesteddirtemplate", "{75405537-33FD-4027-867E-C51DCC45A9F4}"
+ProjectSection(SolutionItems) = preProject
+	AddFailsNestedDir\.template.config\template.json = AddFailsNestedDir\.template.config\template.json
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +40,14 @@ Global
 		{1AFFBFCC-613D-48D2-9E21-8C096E7B514E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AFFBFCC-613D-48D2-9E21-8C096E7B514E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AFFBFCC-613D-48D2-9E21-8C096E7B514E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7930289-EEFA-40A8-A705-C36F1B31B732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7930289-EEFA-40A8-A705-C36F1B31B732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7930289-EEFA-40A8-A705-C36F1B31B732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7930289-EEFA-40A8-A705-C36F1B31B732}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0C62622D-F7AC-4C27-BD89-F19AE7189FC2} = {AE159CFC-BBD2-4E75-BABB-6EC17A57D47A}
 		{0035370C-CF0A-4663-B8BB-07A2A385F46C} = {AE159CFC-BBD2-4E75-BABB-6EC17A57D47A}
+		{75405537-33FD-4027-867E-C51DCC45A9F4} = {AE159CFC-BBD2-4E75-BABB-6EC17A57D47A}
 	EndGlobalSection
 EndGlobal

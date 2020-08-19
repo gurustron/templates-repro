@@ -2,19 +2,25 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "gurustron",
   "classifications": [
-    "MyTestWorks"
+    "MyTestFailsNestedDir"
   ],
-  "name": "MyTestWorks",
-  "identity": "AddToSlnWorks",
-  "shortName": "test-add-sln-works",
+  "name": "MyTestFailsNestedDir",
+  "identity": "AddFailsNestedDir",
+  "shortName": "test-add-sln-nested-fails",
   "tags": {
     "language": "C#"
   },
-  "sourceName": "AddToSlnWorks",
+  "sourceName": "AddFailsNestedDir",
   "preferNameDirectory": true,
+  "sources": [
+    {
+      "source": "./",
+      "target": "../"
+    }
+  ],
   "primaryOutputs": [
     {
-      "path": "AddToSlnWorks.csproj"
+      "path": "AddFailsNestedDir.csproj"
     }
   ],
   "postActions": [

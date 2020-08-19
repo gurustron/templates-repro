@@ -1,7 +1,9 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "gurustron",
-  "classifications": [ "MyTestFailsOutIndex" ],
+  "classifications": [
+    "MyTestFailsOutIndex"
+  ],
   "name": "MyTestFailsOutIndex",
   "identity": "MyTestFailsOutIndex",
   "shortName": "test-add-sln-outind-fails",
@@ -11,10 +13,10 @@
   "sourceName": "AddFailsOptIndex",
   "preferNameDirectory": true,
   "primaryOutputs": [
-  {
-    "path": "AddFailsOptIndex.csproj"
-  }
-],
+    {
+      "path": "AddFailsOptIndex.csproj"
+    }
+  ],
   "postActions": [
     {
       "actionId": "D396686C-DE0E-4DE6-906D-291CD29FC5DE",
